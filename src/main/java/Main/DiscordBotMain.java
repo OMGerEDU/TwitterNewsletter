@@ -30,7 +30,7 @@ public class DiscordBotMain {
                  ,GatewayIntent.GUILD_MESSAGES, GatewayIntent.MESSAGE_CONTENT, GatewayIntent.GUILD_MEMBERS,GatewayIntent.GUILD_INVITES )
                 .setActivity(Activity.playing("with your mom")).disableCache(CacheFlag.VOICE_STATE, CacheFlag.EMOJI, CacheFlag.STICKER).build();
 
-        DiscordApi discordApi = new DiscordApiBuilder().setToken("MTAxOTE4MTM1MTI1MDk1NjM0OQ.GBHEB_.PLdJiSFuOZV32XmKUzH84IRdBuCrbGE3TNxfwo").login().join();
+        DiscordApi discordApi = new DiscordApiBuilder().setToken("YOUR_TOKEN").login().join();
 
 
 
